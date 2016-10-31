@@ -1,0 +1,3 @@
+--use_strict
+--check-leaks
+--require test/config.env
