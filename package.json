@@ -1,14 +1,14 @@
 {
-  "name": "gametimer-service",
+  "name": "timer-service",
   "version": "1.0.0",
   "description": "a syncronized timer system for playing games",
   "main": "server.js",
   "scripts": {
-    "test": "moca --reporter spec"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:mkoelle/gametimer-service.git"
+    "url": "git@bitbucket.org:mkoelle/timer-service.git"
   },
   "author": "Mark Koelle",
   "license": "ISC",
