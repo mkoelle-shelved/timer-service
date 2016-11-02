@@ -20,7 +20,7 @@ describe("Timer Server", function () {
         var server;
         beforeEach(function (done) {
             //start the server
-            server = require('../server').server;
+            server = require('../app/server').server;
             done();
         })
 

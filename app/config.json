@@ -1,0 +1,17 @@
+{
+    "server":{
+        "port":3500
+    },
+    "logging": {
+        "name": "timerservice",
+        "streams": [
+            {
+                "type": "rotating-file",
+                "period": "1d",
+                "count": 12,
+                "level": "trace",
+                "path": "logs/trace.log"
+            }
+        ]
+    }
+}
